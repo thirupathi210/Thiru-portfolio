@@ -63,7 +63,8 @@ const time=()=>{
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Thirupathi`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>I build fast, responsive, and user-friendly websites using modern web technologies like HTML, CSS, JavaScript, and React.I’m a passionate web developer with over 3 years of experience creating websites and web applications. I enjoy turning ideas into interactive digital experiences. My main expertise lies in front-end development, but I also have a working knowledge of back-end technologies.</p>
+                  <p>I’ve worked on projects across different industries and enjoy building clean, scalable code and pixel-perfect interfaces.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
